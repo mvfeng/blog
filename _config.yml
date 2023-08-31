@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 94c.cn
-subtitle: '博客就是C'
-description: '个人技术工具学习分享博客'
-keywords: 94c 博客
-author: 94c
+title: 博客94c
+subtitle: 'blog.94c.cn'
+description: '技术学习分享-技术笔记,系统工具,图形图像,编程开发,办公软件等相关资源下载,同时提供相关资源破解版以及绿色版下载'
+keywords: 博客,94c,技术笔记,软件分享,软件下载,电脑软件,手机软件,免费下载
+author: 94c社区
 language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.94c.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
