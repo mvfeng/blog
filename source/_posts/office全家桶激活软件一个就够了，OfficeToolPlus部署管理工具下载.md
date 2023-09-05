@@ -1,15 +1,15 @@
 ---
-title: 盘点B站视频下载神器biliDown支持8K+Hi-Res音效及字幕去水印
+title: office全家桶激活软件一个就够了，OfficeToolPlus部署管理工具下载
 date: 2023-09-05 10:00:20
 tags:
-	- bilibili
+    - office
 	- PC
 categories:
 	 - 破解软件
 	 - PC
 toc: true
 comments: true
-pic: https://cdn.staticaly.com/gh/mvfeng/imgurl_blog001@2023/1693922338884.jpg
+pic: https://cdn.staticaly.com/gh/mvfeng/imgurl_blog001@2023/1693924209756.jpg
 ---
 
 #### 一、biliDown
