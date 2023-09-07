@@ -3,10 +3,10 @@ title: office全家桶激活软件一个就够了，OfficeToolPlus部署管理�
 date: 2023-09-05 10:00:20
 tags:
     - office
-	- PC
+    - win
 categories:
-	 - 破解软件
-	 - PC
+     - 破解软件
+     - win
 toc: true
 comments: true
 pic: https://cdn.staticaly.com/gh/mvfeng/imgurl_blog001@2023/1693924209756.jpg

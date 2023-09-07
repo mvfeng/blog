@@ -3,10 +3,10 @@ title: 酷我音乐PC版本破解版免费下载，畅享高品质会员特权
 date: 2023-08-31 1:48:20
 tags: 
 	- 酷我音乐
-	- PC
+	- win
 categories:
 	 - 破解软件
-	 - PC
+	 - win
 toc: true
 comments: true
 pic: https://cdn.staticaly.com/gh/mvfeng/imgurl_blog001@2023/1693489771664.webp
