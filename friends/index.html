@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   
   
-  <title>分类 | 博客94c</title>
+  <title>好伙伴们 | 博客94c</title>
   
   <meta name="author" content="94c社区" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -17,16 +17,18 @@
   
     <meta name="keywords" content="博客,94c,就是C,技术笔记,软件分享,软件下载,电脑软件,手机软件,免费下载" />
   
-  <meta name="description" content="技术学习分享-技术笔记,系统工具,图形图像,编程开发,办公软件等相关资源下载,同时提供相关资源破解版以及绿色版下载">
+  <meta name="description" content="好伙伴们在哪里~">
 <meta property="og:type" content="website">
-<meta property="og:title" content="分类">
-<meta property="og:url" content="https://blog.94c.cn/categories/index.html">
+<meta property="og:title" content="好伙伴们">
+<meta property="og:url" content="https://blog.94c.cn/friends/index.html">
 <meta property="og:site_name" content="博客94c">
-<meta property="og:description" content="技术学习分享-技术笔记,系统工具,图形图像,编程开发,办公软件等相关资源下载,同时提供相关资源破解版以及绿色版下载">
+<meta property="og:description" content="好伙伴们在哪里~">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.94c.cn/images/avatar.webp">
 <meta property="article:author" content="94c社区">
 <meta property="article:tag" content="博客,94c,就是C,技术笔记,软件分享,软件下载,电脑软件,手机软件,免费下载">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.94c.cn/images/avatar.webp">
   
   <!-- 站点验证相关 -->
   
@@ -153,77 +155,38 @@
 
         
 
-            <style>
-  .categories ul {
-    list-style: none;
-  }
+            <article itemscope itemtype="https://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="">
+    <div class="kratos-hentry kratos-post-inner clearfix">
+        <div class="kratos-post-content">
+            <h2 class="title-h2 text-center" itemprop="name headline">好伙伴们</h2>
+            <div itemprop="articleBody"><div class="linkpage">
+    <ul id="friendsList"></ul>
+</div>
 
-  .categories .category-list-item {
-    position: relative;
-    padding-top: 20px;
-  }
-
-  .categories .category-list-item .category-list-link::before {
-    content: " ";
-    position: absolute;
-    left: -30px;
-    top: 50%;
-    margin-left: -4px;
-    margin-top: -4px;
-    width: 8px;
-    height: 8px;
-    background: #bbb;
-    border-radius: 50%;
-    transition: all .3s ease-in-out;
-  }
-
-  .categories .category-list-item .category-list-link:hover::before {
-    background: #222;
-  }
-
-  a {
-    color:#666;
-  }
-
-  .categories .category-list-item .category-list-link {
-    position: relative;
-    margin-left: 24px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: inherit;
-  }
-
-  .categories .category-list-item .category-list-link::after {
-    font-family: fontawesome;
-    opacity: 0;
-    content: "\f138";
-    margin-left: 12px;
-    color: #00a7e0;
-    transition: opacity .3s ease-in-out;
-  }
-
-  .categories .category-list-item .category-list-link:hover::after {
-    opacity: 100%;
-  }
-</style>
-<article>
-  <div class="kratos-hentry kratos-post-inner clearfix">
-    <div class="kratos-post-content">
-      <h2 class="title-h2 text-center">
-        分类目录
-      </h2>
-      <div style="margin-left: 2em;">
-        <h3 class="archive-page-counter">
-          当前共有 6 种分类 (゜-゜)つロ 干杯~
-        </h3>
-        <div class="categories">
-          
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/android/">android</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/web/">web</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/web/hexo/">hexo</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/">破解软件</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/win/">win</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%A0%B4%E8%A7%A3%E8%BD%AF%E4%BB%B6/%E5%85%A8%E5%B9%B3%E5%8F%B0/">全平台</a></li></ul></li></ul>
-          
+<script type="text/javascript">
+{
+    const flist = [{"name":"猫猫①号","link":"https://candinya.com","avatar":"../images/avatar.webp","bio":"喵~"},{"name":"好导航94c","link":"https://hao.94c.cn","avatar":"../images/ainav.png","bio":"好导航94c,ai导航大全"}];
+    let friendNodes = '';
+    while (flist.length > 0) {
+        const rndNum = Math.floor(Math.random()*flist.length);
+        friendNodes += `<li><a target="_blank" href="${flist[rndNum].link}"><img src="${flist[rndNum].avatar}" onerror="this.src='/images/avatar.webp';this.onerror=null;"><h4>${flist[rndNum].name}</h4><p>${flist[rndNum].bio}</p></a></li>`;
+        flist.splice(rndNum, 1);
+    }
+    document.getElementById("friendsList").innerHTML = friendNodes;
+}
+</script></div>
         </div>
-      </div>
+        <footer class="kratos-entry-footer clearfix">
+            <div class="footer-tag clearfix">
+                <div class="pull-date">
+                    <time datetime="2023-08-29T16:00:00.000Z" itemprop="dateModified">最后编辑：2023-08-30</time>
+                </div>
+            </div>
+        </footer>
     </div>
-  </div>
+    
+    
 </article>
 
         
